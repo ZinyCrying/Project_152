@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"> </script>
+
+    <script src="./Car.js"></script>
+    <script src="./Base.js"></script>
+
+    <title>Project_151</title>
+</head>
+<body>
+    <a-scene>
+        <a-camera position="0 60 200"></a-camera>
+
+        <a-entity id="base" base></a-entity>
+
+        <a-entity id="car" car-model></a-entity>
+    </a-scene>
+</body>
+</html>
